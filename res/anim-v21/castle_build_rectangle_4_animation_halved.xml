@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set _xmlns:android="http://schemas.android.com/apk/res/android" xmlns:_xmlns="xmlns">
+    <set android:ordering="sequentially"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_50" android:duration="208" android:valueFrom="0.0" android:valueTo="0.85216" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_67" android:duration="2466" android:valueFrom="0.85216" android:valueTo="0.85216" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_39" android:duration="16" android:valueFrom="0.85216" android:valueTo="0.85134" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_58" android:duration="91" android:valueFrom="0.85134" android:valueTo="0.852" android:valueType="floatType" android:propertyName="scaleX" />
+    </set>
+    <set android:ordering="sequentially"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="208" android:valueFrom="1.11763" android:valueTo="1.11763" android:valueType="floatType" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_54" android:duration="2466" android:valueFrom="1.11763" android:valueTo="1.11763" android:valueType="floatType" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_47" android:duration="16" android:valueFrom="1.11763" android:valueTo="1.26898" android:valueType="floatType" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_3" android:duration="91" android:valueFrom="1.26898" android:valueTo="0.0" android:valueType="floatType" android:propertyName="scaleY" />
+    </set>
+</set>

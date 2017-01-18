@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_56" android:duration="5400" android:pathData="M 0.0,0.0 c 0.0,188.0 0.0,940.0 0.0,1128.0" android:propertyXName="translateX" android:propertyYName="translateY" />
+</set>

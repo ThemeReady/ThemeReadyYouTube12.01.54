@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_15" android:duration="5000" android:pathData="M 248.125,256.0 c 0.0,-29.25 0.0,-162.0 0.0,-175.5 c 0.0,-13.5 0.0,87.33333 0.0,94.5 c 0.0,7.16667 0.0,-45.0 0.0,-51.5 l 0.0,9.5 l 0.0,-3.0 l 0.0,0.0 l 0.0,-5.0 l 0.0,124.5" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="2500" android:valueFrom="180.0" android:valueTo="180.0" android:valueType="floatType" android:propertyName="rotation" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_2" android:duration="750" android:valueFrom="180.0" android:valueTo="0.0" android:valueType="floatType" android:propertyName="rotation" />
+    </set>
+</set>

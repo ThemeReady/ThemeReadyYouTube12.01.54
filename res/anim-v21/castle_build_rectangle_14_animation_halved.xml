@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set _xmlns:android="http://schemas.android.com/apk/res/android" xmlns:_xmlns="xmlns">
+    <set android:ordering="sequentially"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="316" android:valueFrom="0.0" android:valueTo="0.0" android:valueType="floatType" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_26" android:duration="175" android:valueFrom="0.0" android:valueTo="1.11763" android:valueType="floatType" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_41" android:duration="2125" android:valueFrom="1.11763" android:valueTo="1.11763" android:valueType="floatType" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_17" android:duration="116" android:valueFrom="1.11763" android:valueTo="0.0" android:valueType="floatType" android:propertyName="scaleY" />
+    </set>
+</set>

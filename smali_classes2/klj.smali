@@ -1,0 +1,14 @@
+.class public interface abstract Lklj;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a(Ljava/lang/Exception;)V
+.end method
+
+.method public abstract a(Lkku;)V
+.end method
+
+.method public abstract b(Lkli;)V
+.end method

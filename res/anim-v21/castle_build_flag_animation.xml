@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="4050" android:valueFrom="0.0" android:valueTo="0.0" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_63" android:duration="33" android:valueFrom="0.0" android:valueTo="0.5" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_42" android:duration="99" android:valueFrom="0.5" android:valueTo="-0.5" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_42" android:duration="133" android:valueFrom="-0.5" android:valueTo="0.5" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_42" android:duration="166" android:valueFrom="0.5" android:valueTo="-0.45" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_9" android:duration="383" android:valueFrom="-0.45" android:valueTo="0.5" android:valueType="floatType" android:propertyName="scaleX" />
+    </set>
+</set>

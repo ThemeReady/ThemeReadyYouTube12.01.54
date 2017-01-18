@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set _xmlns:android="http://schemas.android.com/apk/res/android" xmlns:_xmlns="xmlns">
+    <set android:ordering="sequentially"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="2025" android:valueFrom="0.0" android:valueTo="0.0" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_63" android:duration="16" android:valueFrom="0.0" android:valueTo="0.5" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_42" android:duration="49" android:valueFrom="0.5" android:valueTo="-0.5" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_42" android:duration="66" android:valueFrom="-0.5" android:valueTo="0.5" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_42" android:duration="83" android:valueFrom="0.5" android:valueTo="-0.45" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/castle_build_animation_interpolator_9" android:duration="191" android:valueFrom="-0.45" android:valueTo="0.5" android:valueType="floatType" android:propertyName="scaleX" />
+    </set>
+</set>
