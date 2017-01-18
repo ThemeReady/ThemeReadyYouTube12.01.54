@@ -63,7 +63,7 @@
     iget-object v0, v0, Lqbe;->af:Landroid/view/View;
 
     .line 1019
-    const/4 v1, -0x1
+    const v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundColor(I)V
 
